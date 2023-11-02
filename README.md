@@ -39,7 +39,7 @@ Follow these steps to set up and run the application:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/BryanNah/backend-stage-two-task
+   git clone https://github.com/BryanNah/library-management
 
 2. Navigate to the project directory:
    ```sh
@@ -73,6 +73,7 @@ The application will be accessible at http://localhost:8000.
 - Add Book: POST /api/books
 - Fetch All Books: GET /api/books
 - Fetch Specific Book: GET /api/books/{bookId}
+- Update Specific Book: PUT /api/books/{bookId}
 - Delete Book: DELETE /api/books/{bookId}
 - Borrow Book: POST /api/books/{bookId}/borrow
 - Return Book: POST /api/books/{bookId}/return
